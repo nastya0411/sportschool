@@ -1,8 +1,8 @@
 import Main from "./Main";
 import Catalog from "./Catalog";
 import {
-    createBrowserRouter,
-    RouterProvider,
+  createBrowserRouter,
+  RouterProvider,
 } from "react-router-dom";
 import Product from "./Product";
 import Authorization from "./Authorization";
@@ -12,44 +12,50 @@ import Basket from "./Basket";
 import Сompilation from './Сompilation';
 import Podbor from './Podbor';
 import CartContextProvider from "./contexts/CartContextProvider";
+import { Children } from "react";
 
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Main />,
-  },
-  {
-    path: "/catalog",
-    element: <Catalog />,
-  },
-  {
-    path: "/product",
-    element: <Product />,
-  },
-  {
-    path: "/authorization",
-    element: <Authorization />,
-  },
-  {
-    path: "/about",
-    element: <About />,
-  },
-  {
-    path: "/enter",
-    element: <LogIn />,
-  },
-  {
-    path: "/basket",
-    element: <Basket />,
-  },
-  {
-    path: "/compilation",
-    element: <Сompilation />,
-  },
-  {
-    path: "/podbor",
-    element: <Podbor />,
+    path: "/sportschool",
+    children: [
+      {
+        path: "",
+        element: <Main />,
+      },
+      {
+        path: "catalog",
+        element: <Catalog />,
+      },
+      {
+        path: "product",
+        element: <Product />,
+      },
+      {
+        path: "authorization",
+        element: <Authorization />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "enter",
+        element: <LogIn />,
+      },
+      {
+        path: "basket",
+        element: <Basket />,
+      },
+      {
+        path: "compilation",
+        element: <Сompilation />,
+      },
+      {
+        path: "podbor",
+        element: <Podbor />,
+      },
+    ]
   },
 ]);
 

@@ -100,7 +100,7 @@ function Cards()
 function Card({img, name, price})
 {
     return(
-        <RouterLink to = '/product'>
+        <RouterLink to = '/sportschool/product'>
             <div className = "flex flex-col justify-between items-center bg-[#101010] rounded-xl p-5 max-w-[260px] h-full">
                 <img  src = {img} alt = "картиночки"/>
                 <div>

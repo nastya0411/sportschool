@@ -113,9 +113,9 @@ function Catalog()
     <div className = "font-medium bg-black tracking-[.25rem]">
         <Header />
         <div className = "object-center-top px-52 md:px-64 lg:px-64 text-2xl text-mainOrange tracking-[.4rem] px-64 flex flex-row gap-x-9 mt-6 md:mt-6 lg:mt-0">
-        <RouterLink to = '/'><p >Главная </p></RouterLink>
+        <RouterLink to = '/sportschool/'><p >Главная </p></RouterLink>
           <p > / </p>
-          <RouterLink to = '/catalog'><p >Каталог</p></RouterLink>
+          <RouterLink to = '/sportschool/catalog'><p >Каталог</p></RouterLink>
         </div>
         <div className = "flex flex-col items-center py-[16px] pb-5 text-mainOrange">
         <p className = "text-mainOrange text-6xl tracking-[.4rem] border-b border-orange-800 rounded-sm w-5/6 text-center p-3 ">Каталог ароматов</p>
@@ -148,7 +148,7 @@ function catalogCards()
 function Card({ card })
 {
     return(
-      <RouterLink to = '/product'>
+      <RouterLink to = '/sportschool/product'>
         <div className = "flex flex-col items-center bg-[#101010] rounded-xl p-5 w-[260px] self-center">
             <img  src = {card.img} alt = "картиночки"/>
             <p className = "text-white text-center tracking-[.1rem]">{card.name}</p>
