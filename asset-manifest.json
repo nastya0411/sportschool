@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nastya0411/sportschool.git/static/css/main.dcd49f12.css",
-    "main.js": "/nastya0411/sportschool.git/static/js/main.8c0cde5b.js",
+    "main.js": "/nastya0411/sportschool.git/static/js/main.0cf495af.js",
     "static/js/453.bea66239.chunk.js": "/nastya0411/sportschool.git/static/js/453.bea66239.chunk.js",
     "static/media/woodCum.png": "/nastya0411/sportschool.git/static/media/woodCum.0b12d6721cef58e367f5.png",
     "static/media/footer.png": "/nastya0411/sportschool.git/static/media/footer.7b2cd6ea973d373ffdaa.png",
@@ -48,11 +48,11 @@
     "index.html": "/nastya0411/sportschool.git/index.html",
     "static/media/profile.svg": "/nastya0411/sportschool.git/static/media/profile.be587a8c6042cc19657f9556decfd43a.svg",
     "main.dcd49f12.css.map": "/nastya0411/sportschool.git/static/css/main.dcd49f12.css.map",
-    "main.8c0cde5b.js.map": "/nastya0411/sportschool.git/static/js/main.8c0cde5b.js.map",
+    "main.0cf495af.js.map": "/nastya0411/sportschool.git/static/js/main.0cf495af.js.map",
     "453.bea66239.chunk.js.map": "/nastya0411/sportschool.git/static/js/453.bea66239.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcd49f12.css",
-    "static/js/main.8c0cde5b.js"
+    "static/js/main.0cf495af.js"
   ]
 }
