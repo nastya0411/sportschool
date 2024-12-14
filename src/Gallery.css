@@ -1,0 +1,25 @@
+.fade-out-siblings {
+
+  
+    background: #000000;
+    text-align: center;
+    display: grid;
+    pointer-events: none;
+  }
+  
+  .fade-out-siblings > * {
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  
+    pointer-events: auto;
+    transition: 300ms opacity, 300ms transform;
+  }
+  
+  .fade-out-siblings:hover > * {
+    opacity: 0.4;
+  }
+  
+  .fade-out-siblings:hover > *:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }

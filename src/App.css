@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "TenorSans-Regular";
+    src: url("./fonts/TenorSans-Regular.ttf");
+    letter-spacing: .1rem;
+}
+
+body {
+    font-family: "TenorSans-Regular";
+}
