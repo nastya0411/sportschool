@@ -17,7 +17,7 @@ import { Children } from "react";
 
 const router = createBrowserRouter([
   {
-    path: "/sportschool",
+    path: "/photocamera",
     children: [
       {
         path: "",

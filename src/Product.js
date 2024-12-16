@@ -52,11 +52,11 @@ function Product() {
     <div className = "font-medium bg-black tracking-[.25rem]">
         <Header />
         <div className = "object-left-top text-2xl text-mainOrange tracking-[.4rem] px-20 md:px-64 lg:px-64 flex flex-row gap-x-9 pt-5" >
-          <RouterLink to = '/sportschool/'><p>Главная </p></RouterLink>
+          <RouterLink to = '/photocamera/'><p>Главная </p></RouterLink>
           <p > / </p>
-          <RouterLink to = '/sportschool/catalog'><p>Каталог</p></RouterLink>
+          <RouterLink to = '/photocamera/catalog'><p>Каталог</p></RouterLink>
           <p > / </p>
-          <RouterLink to = '/sportschool/product'><p >Товар</p></RouterLink>
+          <RouterLink to = '/photocamera/product'><p >Товар</p></RouterLink>
         </div>
         <div className='flex'>
           <div className='object-contain -mt-2 ps-2 md:ps-20 lg:ps-72'>

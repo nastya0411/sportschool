@@ -9,9 +9,9 @@ function Podbor(){
         <div className = "font-medium bg-black tracking-[.25rem] grid gap-y-5 text-white">
         <Header />
         <div className = "object-left-top text-2xl text-mainOrange tracking-[.4rem] px-64 flex flex-row gap-x-9" >
-          <RouterLink to = '/sportschool/'><p>Главная </p></RouterLink>
+          <RouterLink to = '/photocamera/'><p>Главная </p></RouterLink>
           <p > / </p>
-          <RouterLink to = '/sportschool/podbor'><p>Подборки</p></RouterLink>
+          <RouterLink to = '/photocamera/podbor'><p>Подборки</p></RouterLink>
         </div>
         <div className = "bg-black flex flex-col items-center ">
           <p className = "text-mainOrange text-6xl tracking-[.4rem] border-b border-orange-800 rounded-sm w-5/6 text-center p-3">Подборки ароматов</p>

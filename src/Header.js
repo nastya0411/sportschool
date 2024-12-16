@@ -30,7 +30,7 @@ function Header()
     return(
         <>
             <header className = "bg-black flex justify-around items-center h-32 md:h-28 lg:h-28 fixed w-full z-10 text-center ">
-                <RouterLink to = '/sportschool/'><img className = "w-48 pl-8" src = {logo} alt = "лого"/></RouterLink>
+                <RouterLink to = '/photocamera/'><img className = "w-48 pl-8" src = {logo} alt = "лого"/></RouterLink>
                 <div className="hidden md:block">
                     <nav className = "flex gap-[80px] text-2xl px-0 md:px-0 lg:px-96">
                         {links.map((elem, i) => { return <Link text={elem.text} url={elem.url} key={i} /> })}
@@ -40,8 +40,8 @@ function Header()
                         <BurgerMenu />
                     </div>
                 <div className = "flex gap-4">
-                <RouterLink to = '/sportschool/enter'><img src = {profile} alt = "профиль"/></RouterLink>
-                <RouterLink to = '/sportschool/basket'><img src = {busket} alt = "корзина"/></RouterLink>
+                <RouterLink to = '/photocamera/enter'><img src = {profile} alt = "профиль"/></RouterLink>
+                <RouterLink to = '/photocamera/basket'><img src = {busket} alt = "корзина"/></RouterLink>
                 <p className="text-white py-1 font-semibold">{Object.keys(cart).length}</p>
                 </div>
             </header>
@@ -52,7 +52,7 @@ function Header()
 
 function Link({text, url}) {
   return(
-    <RouterLink className="text-white" to={"/sportschool" + url}>{text}</RouterLink>
+    <RouterLink className="text-white" to={"/photocamera" + url}>{text}</RouterLink>
   );
 }
 

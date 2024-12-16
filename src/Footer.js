@@ -29,7 +29,7 @@ function Footer() {
         <div className = "w-full bg-cover bg-center bg-[url(images/footer.png)] pt-8 ">  
             <div  className=" px-20 md:px-20 lg:px-40 flex flex-col gap-7">
             <ScrollToTop />
-            <RouterLink to = '/sportschool/#top'><img className = "w-48 flex flex-col" src = {logo} alt = "лого"/></RouterLink>
+            <RouterLink to = '/photocamera/#top'><img className = "w-48 flex flex-col" src = {logo} alt = "лого"/></RouterLink>
                 <p className = "text-2xl text-left text-white tracking-[.4rem]">Подпишитесь на нашу рассылку новостей:</p>
                 <div className="flex flex-col">
                     <div>
@@ -64,7 +64,7 @@ function Footer() {
 
 function Link({text, url}) {
     return(
-        <RouterLink className = "text-white" to = {'/sportschool' + url}>{text}</RouterLink>
+        <RouterLink className = "text-white" to = {'/photocamera' + url}>{text}</RouterLink>
     );
 }
 }

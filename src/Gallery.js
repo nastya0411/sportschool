@@ -61,7 +61,7 @@ function Gallery()
 
 function ParfumCard({ title, src }) {
     return (
-        <RouterLink to = '/sportschool/compilation'>
+        <RouterLink to = '/photocamera/compilation'>
         <div className="relative">
             <img className="object-cover" src={src} alt="бутылка из галереи"/>
             <div className = "bg-[#00000044] w-full pt-1 absolute bottom-0 ">

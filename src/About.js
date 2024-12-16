@@ -12,9 +12,9 @@ function About()
     <div className = "font-medium bg-black tracking-[.25rem]">
         <Header />
         <div className = "object-left-top text-2xl text-mainOrange tracking-[.4rem] px-64 flex flex-row gap-x-9 mb-5">
-        <RouterLink to = '/sportschool/'><p >Главная </p></RouterLink>
+        <RouterLink to = '/photocamera/'><p >Главная </p></RouterLink>
           <p > / </p>
-          <RouterLink to = '/sportschool/about'><p >О нас</p></RouterLink>
+          <RouterLink to = '/photocamera/about'><p >О нас</p></RouterLink>
         </div>
         <div className=' flex flex-col items-center gap-14 w-full  bg-cover bg-center bg-[url(images/about/about1.png)] py-[165px] px-[300px] text-center text-white'>
             <p className = 'text-6xl'>О нас </p>

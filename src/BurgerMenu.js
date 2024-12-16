@@ -7,8 +7,8 @@ return (
 <div className={`burger-menu ${isOpen ? 'burger-menu_open' : ''}`}> <button className="burger-menu__button" onClick={() => setIsOpen(!isOpen)}>
    <span className={`burger-menu__line ${isOpen ? 'burger-menu__line_open' : ''}`}></span> <span className={`burger-menu__line ${isOpen ? 'burger-menu__line_open' : ''}`}>
     </span> <span className={`burger-menu__line ${isOpen ? 'burger-menu__line_open' : ''}`}></span> </button>
-     <div className="burger-menu__nav"> <RouterLink to = '/sportschool/#top'><p className = "burger-menu__item" >Главная</p>
-     </RouterLink> <RouterLink to = '/sportschool/catalog'><p className = "burger-menu__item" >Каталог</p></RouterLink> 
-     <RouterLink to = '/sportschool/about'><p className = "burger-menu__item" >О нас</p></RouterLink> <RouterLink to = '/sportschool/podbor'>
+     <div className="burger-menu__nav"> <RouterLink to = '/photocamera/#top'><p className = "burger-menu__item" >Главная</p>
+     </RouterLink> <RouterLink to = '/photocamera/catalog'><p className = "burger-menu__item" >Каталог</p></RouterLink> 
+     <RouterLink to = '/photocamera/about'><p className = "burger-menu__item" >О нас</p></RouterLink> <RouterLink to = '/photocamera/podbor'>
       <p className = "burger-menu__item" >Подборки</p></RouterLink> </div> </div> ); };
 export default BurgerMenu;
